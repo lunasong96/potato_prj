@@ -10,13 +10,7 @@
     "jscs": {
       
     },
-    "browser-extension": {
-      
-    },
     "cordovajs": {
-      
-    },
-    "bootstrap": {
       
     },
     "jquery-extension": {
@@ -24,7 +18,6 @@
     }
   },
   "libs": [
-    "browser",
     "jquery"
   ]
 }
