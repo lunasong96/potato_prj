@@ -2,9 +2,14 @@
 
 /* 컨테이너 */
 .main{
-	display:bloxk;
+	display:block;
 	margin:0px auto;
 	width:1280px;
 	margin-top:50px;
 	margin-bottom: 50px;
+}
+
+.text {
+	margin-left: 15px;
+    font-size: 25px;
 }

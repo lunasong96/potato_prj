@@ -15,7 +15,6 @@
     width: 1920px;;
     line-height: 1.6;
     display: flex;
-    border-top: 7px solid #c89e6c;
 }
 
 .footer-logo-png {

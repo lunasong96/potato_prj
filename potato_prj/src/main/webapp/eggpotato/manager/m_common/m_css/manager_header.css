@@ -2,8 +2,8 @@
 
 /* header css start */
 .header {
+	background-color: #E4CEB7;
 	width: 1920px;
-	background: white;
 	top: 0;
 	display: block;
 	z-index: 999;
@@ -23,6 +23,7 @@
 }
 
 .wrap-banner {
+	max-width: 1280px;
 	background-color: #E4CEB7;
 	margin: auto;
 	position: relative;
@@ -105,7 +106,7 @@
 
 .navibar > li {
 	float: left;
-	width: 385px;
+	width: 260px;
 	height: 50px;
 	position: relative;
 	line-height: 50px;
