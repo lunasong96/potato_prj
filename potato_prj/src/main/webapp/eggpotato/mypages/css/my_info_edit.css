@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+.info_edit{
+	width: 1200px;
+	height: 700px;
+	margin: 0px auto;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	
+}
+.info_edit>table {
+	width: 100%;
+} 
+.profile_img{
+	display: flex;
+	align-items: center;
+}
+
+.img_btn{
+	background-color:#DCC1A0;
+	width: 90px;
+	height: 50px;
+	border: 0px;
+	border-radius: 5px;
+	margin-right: 10px;
+	font-size: 15px;
+}
+.img_del_btn{
+	background-color: #575757;
+	width: 70px;
+	height: 50px;
+	color: white;
+	border: 0px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.birth{
+	 border: 1px solid #dedede;
+	 border-radius: 5px;
+	 height: 40px;
+}
+div.info_edit table th{
+	background-color: #DCC1A0;
+	vertical-align: middle;
+	letter-spacing: -1px;
+	padding: 3px 0 0;
+	height: 70px;
+	width:160px;
+	font-size: 17px;
+}
+div.info_edit table td{
+	border-bottom: 1px solid #ddd;
+}
+.info_edit>table>tbody>tr>td {
+	padding: 15px 5px 15px 15px;
+}
+.info_edit table tr td input[type="text"] {
+	height: 40px;
+	border: 1px solid #dedede;
+	font-size: 14px;
+	padding: 3px 0 0;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.info_edit table tr td input[type="password"] {
+	height: 40px;
+	border: 1px solid #dedede;
+	font-size: 14px;
+	padding: 0 20px;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+
+.edit_btn{ 
+	width: 100px;
+	height: 50px;
+	background-color:#DCC1A0;
+	border: 0px;
+	border-radius: 5px;
+	margin: 0px auto;
+	font-size: 17px;
+}
