@@ -58,8 +58,9 @@ $(function(){
 			
 			<div class="mm_top">
 				<input hidden="hidden"><select id="memberCat" name="category" class="select_category">
-					<option value="">전체 사용자</option>
-					<option value="">탈퇴 회원</option>
+					<option>전체 사용자</option>
+					<option>탈퇴 회원</option>
+					<option>차단 회원</option>
 				</select>
 				<div class="search_wrap">
 					<input type="text" id="idSearch" name="idSearch" value="" class="search_txt" placeholder="아이디를 입력해주세요." autocomplete="off">
@@ -68,12 +69,23 @@ $(function(){
 			</div><!-- mm_top end -->
 			
 			<div class="table_wrap">
-				<table class="table">
-				<caption>회원관리 표</caption>
+				<table class="table1">
 				<!-- 전체사용자 클릭 시 -->
 				<tr><th>아이디명</th><th>회원명</th><th>가입날짜</th><th>생년월일</th><th>차단</th></tr>
-				<!-- 탈퇴회원 클릭 시 -->
+				<tr>
+				<td>q1w2e3r4t5</td><td>홍길동</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단"></td>
+				</tr>
+				</table>
+				
+				<table class="table2">
+				<!-- 탈퇴 회원 클릭 시 -->
 				<tr><th>아이디명</th><th>회원명</th><th>가입날짜</th><th>탈퇴날짜</th></tr>
+				</table>
+				
+				<table class="table3">
+				<!-- 차단 회원 클릭 시 -->
+				<tr><th>아이디명</th><th>회원명</th><th>차단사유</th><th>차단해제</th></tr>
 				</table>
 			
 			</div>
@@ -85,7 +97,7 @@ $(function(){
 <!-- container end -->
 
 <!-- footer -->
-<%@ include file="../../m_common/manager_footer.jsp" %>
+
 <!-- footer end -->
 
 </div>

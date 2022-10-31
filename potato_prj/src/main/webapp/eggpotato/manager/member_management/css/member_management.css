@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 /* 컨테이너 */
-.main{
-	display:block;
-	margin:0px auto;
-	width:1280px;
-	margin-top:50px;
-	margin-bottom: 50px;
+.main {
+    display: block;
+    width: 1300px;
+    margin: 0 0 50px 330px;
 }
 
 .text {
-	margin-left: 15px;
+    margin: 15px;
+    color: #5C3300;
     font-size: 25px;
+    font-weight: bold;
 }
 
 /* 본문 */
