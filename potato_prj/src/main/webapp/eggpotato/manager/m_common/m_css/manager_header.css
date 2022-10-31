@@ -4,10 +4,10 @@
 .header {
 	background-color: #E4CEB7;
 	width: 1920px;
-	top: 0;
 	display: block;
 	z-index: 999;
 	position: fixed;
+	border-bottom: 10px solid #C89E6C;
 }
 
 
@@ -23,7 +23,6 @@
 }
 
 .wrap-banner {
-	max-width: 1280px;
 	background-color: #E4CEB7;
 	margin: auto;
 	position: relative;
@@ -72,10 +71,11 @@
 /* 네비 바  */
 
 .wrap-navi {
-	margin: 0 auto;
-	height: 50px;
-	background-color: #FDEEDC;
-	border-top: 5px solid #C89E6C;
+    position: absolute;
+    top: 100px;
+    width: 250px;
+    height: 100%;
+    background-color: #FDEEDC;
 }
 
 .shadow{
@@ -83,42 +83,29 @@
 }
 
 .navi {
-	display: flex;
-	flex-grow: 0;
-	overflow-y: visible;
-	background-color: transparent
+	margin-top: 50px;
 }
 
 .navibar {
 	display: flex;
-	padding-left: 0;
-	list-style: none;
-	margin: 0 auto;
-	text-align: center;
+    padding-left: 25px;
+    list-style: none;
+    flex-direction: column;
 }
 
 .navi-link {
-	font-weight: 500;
-	font-size: 16px;
-	color: #5C3300 !important;
-	margin: 0 !important;
+	font-size: 18px;
+    font-weight: bold;
+    color: #5C3300 !important;
+    margin: 0 !important;
 }
 
 .navibar > li {
-	float: left;
-	width: 260px;
-	height: 50px;
-	position: relative;
-	line-height: 50px;
-}
-
-.navi-link:hover {
-	height: 100%;
-	background-color: #FFF;
-}
-
-.navi-item:hover .sub-navibar {
-	display: block;
+    width: 200px;
+    position: relative;
+    line-height: 40px;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
 }
 
 /* header css end */

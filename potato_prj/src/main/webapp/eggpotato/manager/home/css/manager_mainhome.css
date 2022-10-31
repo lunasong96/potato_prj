@@ -2,18 +2,16 @@
 
 /* 컨테이너 */
 .main {
-	display: block;
-	margin: 0px auto;
-	width: 1280px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+    display: block;
+    width: 1300px;
+    margin: 0 0 50px 330px;
 }
 
 .text {
-	margin-left: 15px;
-	color: #5C3300;
-	font-size: 25px;
-	font-weight: bold;
+    margin: 15px;
+    color: #5C3300;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .top{
@@ -50,13 +48,14 @@
 }
 
 .graph1 {
-	background-color: white;
-	width:820px;
+    background-color: white;
+    width: 780px;
     height: 500px;
-	display: inline-block;
-	border-radius: 5px;
-	margin-right: 2.5px;
-	margin-bottom: 2.5px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 2.5px;
+    margin-bottom: 2.5px;
+    padding: 0 20px;
 }
 
 .graph2 {

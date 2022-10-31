@@ -54,14 +54,6 @@
   cursor: pointer;
 }
  
-.star-rating :checked ~ label {
-  -webkit-text-fill-color: gold;
-}
- 
-.star-rating label:hover,
-.star-rating label:hover ~ label {
-  -webkit-text-fill-color: #fff58c;
-}
 /* 2 */
 .review {
 	height: 250px;

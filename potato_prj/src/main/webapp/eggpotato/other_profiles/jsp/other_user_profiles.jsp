@@ -12,24 +12,8 @@
 <link rel="stylesheet" type="text/css" href="../css/other_user_profiles.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
-$(function() {
-	//하트 아이콘 효과
-	$(".heart-icon").click(function() {
-		$(".heart-icon svg").toggleClass("active");
-	})
-	//신고 아이콘 효과
-	$(".dec-icon").click(function() {
-		$(".dec-icon svg").toggleClass("active");
-	})
-})
 
-$( ".star_rating a" ).click(function() {
-	$(this).parent().children("a").removeClass("on");
-	$(this).addClass("on").prevAll("a").addClass("on");
-	return false;
-});
 </script>
-
 </head>
 <body>
 <div class="wrap">

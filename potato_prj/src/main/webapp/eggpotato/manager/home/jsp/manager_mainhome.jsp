@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>관리자 메인화면</title>
+<title>Manager Main Home</title>
 <link rel="shortcut icon"  href="../../../images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="../../../common/css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="../../m_common/m_css/manager_wrap_container.css"/>
@@ -31,7 +31,7 @@
 			<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-house-heart-fill" viewBox="0 0 16 16">
   			<path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707L7.293 1.5Z"/>
   			<path d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9.293Zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018Z"/>
-			</svg><span class="text">홈</span>
+			</svg><span class="text">대시보드</span>
 		</div>
 <!-- 현재 메뉴 -->
 		<div><!-- 1 -->
@@ -137,7 +137,7 @@
 			  	<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
  			 	<path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
 				</svg><span class="label">회원 현황</span></p>
-				<a href="../../member_management/jsp/manager_member_management.jsp"><p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+				<a href="../../member_management/jsp/member_management.jsp"><p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
  				<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
 				<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
 				</svg></p></a>
@@ -173,7 +173,6 @@
 <!-- container end -->
 
 <!-- footer -->
-<%@ include file="../../m_common/manager_footer.jsp" %>
 <!-- footer end -->
 
 </div>
