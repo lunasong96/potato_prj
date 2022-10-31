@@ -4,13 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>비밀번호 수정</title>
+<title>휴게소 즐겨찾기</title>
 <link rel="shortcut icon"  href="../../images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/user_wrap_container.css"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/user_navi.css"/><%-- 네비바 필요한 사람만 --%>
-<link rel="stylesheet" type="text/css" href="../css/password_edit.css"/>
-
+<link rel="stylesheet" type="text/css" href="../css/bookmark.css"/>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -27,8 +26,10 @@
 
 <!-- container -->
 <div class="container">
+<%-- 네비바 필요한 경우에 사용할것, 필요없으면 삭제~ --%>
 
-	<%-- 마이페이지용 --%>
+
+<%-- 마이페이지용 --%>
 <div class="wrap-navi">
 		<div class="navi">
 			<div class="profileWrap">
@@ -47,43 +48,31 @@
 	
 
 <%-- 네비바 끝 --%>
-<!-- 작업 시작 -->
-<!-- <div class="pw_edit_title">비밀번호 수정</div> --><!-- 얘가 문제였음 일단 보류! -->
-	<div class="pw_edit_form">
-		<table>
-			<tr>
-				<th><label for="password">현재 비밀번호</label></th>
-				<td>
-					<input type="password" id="password" name="password" placeholder="비밀번호를 입력해주세요." class="pw">
-				</td>
-			</tr>
-			<tr>
-				<th><label for="password">신규 비밀번호</label></th>
-				<td>
-					<input type="password" id="password" name="newpassword" placeholder="비밀번호를 입력해주세요." class="pw">
-					<span>* 비밀번호는 *8~20자의 영문,숫자,특수문자를 혼합하여 입력해주세요.</span>
-				</td>
-			</tr>
-			<tr>
-				<th><label for="password">신규 비밀번호 확인</label></th>
-				<td>
-					<input type="password" id="password" name="newpassword1" placeholder="비밀번호를 입력해주세요." class="pw">
-				</td>
-			</tr>
-		</table>
-	
-	<button class="pw_edit_form_btn">확인</button>
+<!-- 작업시작 -->
+<div class="bookmarkWrap">
+	<div class="profile">
+		<div class="profileImg">
+				<img src=""  id="profileImg" name="profileImg" class="profileImg" style="margin: 5px 30px; width: 70px; height: 70px; background: #f8edeb; border-radius: 50%;">
+			<div class="profileContent">
+				<div class="nick">
+					닉네임
+				</div>
+			</div><!-- profileContent -->
+		</div><!-- profileImg -->
+	</div><!-- profile -->
+<div class="list">
 
-	</div><!-- pw_edit_form -->
+</div>
+</div><!-- bookmarkWrap -->
 </div><!-- wrap-navi -->
 
-</div><!-- container 건들면 안됩니다....! -->
+</div><!-- container -->
 <!-- container end -->
 
 <!-- footer -->
 <%@ include file="../../common/jsp/user_footer.jsp" %>
 <!-- footer end -->
 
-</div><!-- wrap -->
+</div>
 </body>
 </html>

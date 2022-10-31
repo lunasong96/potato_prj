@@ -26,35 +26,26 @@
 
 <!-- container -->
 <div class="container">
-
-<%-- 마이페이지용 --%>
- <div class="wrap-navi">
+	<%-- 마이페이지용 --%>
+<div class="wrap-navi">
 		<div class="navi">
-			<ul class="navibar">
-				<li class="navi-item">
-					<a class="navi-link" href="my_info_edit.jsp">내 정보 수정</a>
-					<ul class="sub-navibar">
-						<li class="subnavi-item">
-							<a class="subnavi-link" href="password_edit.jsp">비밀번호 수정</a>
-						</li>
-						<li class="subnavi-item">
-							<a class="subnavi-link" href="unregister.jsp">회원탈퇴</a>
-						</li>
-					</ul>
-				</li>
-				<li class="navi-item">
-					<a class="navi-link" href="my_review.jsp">내가 쓴 리뷰</a>
-				</li>
-				<li class="blank"></li>
-				<li class="navi-item">
-					<a class="navi-link" href="#void">좋아요한 리뷰</a>
-				</li>
-				<li class="navi-item">
-					<a class="navi-link" href="#void">휴게소 즐겨찾기</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+			<div class="profileWrap">
+				<div class="img">
+					<img src=""  id="profileImg" name="profileImg" class="img" style="margin: 5px 30px; width: 150px; height: 150px; background: #f8edeb; border-radius: 50%;">
+				</div>
+				<div class="nickname">감자킴</div>
+			</div>			
+			<a class="navi-link" href="my_info_edit.jsp">내 정보 수정</a>
+			<a class="navi-link2" href="password_edit.jsp">비밀번호 수정</a>
+			<a class="navi-link2" href="unregister.jsp">회원탈퇴</a>
+			<a class="navi-link" href="my_review.jsp">내가 쓴 리뷰</a>
+			<a class="navi-link" href="like_review.jsp">좋아요한 리뷰</a>
+			<a class="navi-link" href="bookmark.jsp">휴게소 즐겨찾기</a>
+		</div><!-- navi -->
+	
+
+<%-- 네비바 끝 --%>
+
 
 <div class="review_wrap">
 	<div class="profile_wrap">
@@ -142,7 +133,7 @@
 </div><!-- reviewBottom -->
 	
 </div><!-- review_wrap -->
-
+</div><!-- wrap-navi -->
 
 
 </div><!-- container 삭제 시 죽음 뿐.... -->
