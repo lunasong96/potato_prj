@@ -71,6 +71,12 @@
 							</span>
 							<textarea placeholder="재료를 기입해주세요."></textarea>
 						</span>
+						<span>
+							<label>대표메뉴</label>
+							<input type="checkbox"/>
+							<label>추천메뉴</label>
+							<input type="checkbox"/>
+						</span>
 					</div>
 				</div>
 			</div>
