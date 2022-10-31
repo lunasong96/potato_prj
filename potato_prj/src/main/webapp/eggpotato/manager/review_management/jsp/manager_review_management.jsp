@@ -99,7 +99,7 @@
 <!-- container end -->
 
 <!-- footer -->
-<%@ include file="../../m_common/manager_footer.jsp" %>
+
 <!-- footer end -->
 
 </div>
