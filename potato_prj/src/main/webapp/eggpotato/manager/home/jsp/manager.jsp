@@ -65,15 +65,12 @@
 		</div>
 <!-- 현재 메뉴 --><!-- 비번변경이 아니면 지워주세요. 지우기 끝 -->
 --%>
-
-여기서 작업할것 ! 다른건 건들이지 마시오~
 <!-- 건들지마세요 -->
 	</div>
 </div>
 <!-- container end -->
 
 <!-- footer -->
-<%@ include file="../../m_common/manager_footer.jsp" %>
 <!-- footer end -->
 
 </div>
