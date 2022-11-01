@@ -13,7 +13,11 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
-
+$(function() {
+	$(".del").click(function() {
+		confirm("즐겨찾기가 삭제되었습니다.")
+	});//click
+});//ready
 </script>
 
 </head>
@@ -50,20 +54,30 @@
 <%-- 네비바 끝 --%>
 <!-- 작업시작 -->
 <div class="bookmarkWrap">
-	<div class="profile">
-		<div class="profileImg">
-				<img src=""  id="profileImg" name="profileImg" class="profileImg" style="margin: 5px 30px; width: 70px; height: 70px; background: #f8edeb; border-radius: 50%;">
-			<div class="profileContent">
-				<div class="nick">
-					닉네임
-				</div>
-			</div><!-- profileContent -->
-		</div><!-- profileImg -->
-	</div><!-- profile -->
-<div class="list">
-
-</div>
-</div><!-- bookmarkWrap -->
+	<div class="title">휴게소 즐겨찾기</div  >
+		<div class="profile">
+			<div class="profileImg">
+					<img src=""  id="profileImg" name="profileImg" class="profileImg" style="margin: 5px 30px; width: 70px; height: 70px; background: #f8edeb; border-radius: 50%;">
+				<div class="profileContent">
+					<div class="nick">
+						닉네임
+					</div><!-- nick -->
+				</div><!-- profileContent -->
+			</div><!-- profileImg -->
+		</div><!-- profile -->
+	<div class="listWrap">
+		<div class="list">xx휴게소<button class="del">삭제</button></div>
+		<div class="list">oo휴게소<button class="del">삭제</button></div>
+		<div class="list">ㄱㄱ휴게소<button class="del">삭제</button></div>
+		<div class="list">ㄴㄴ휴게소<button class="del">삭제</button></div>
+		<div class="list">ㄷㄷ휴게소<button class="del">삭제</button></div>
+		<div class="list">ㄹㄹ휴게소<button class="del">삭제</button></div>
+		<div class="list">ㅁㅁ휴게소<button class="del">삭제</button></div>
+		<div class="list">ㅂㅂ휴게소<button class="del">삭제</button></div>
+		<div class="list">얍 휴게소<button class="del">삭제</button></div>
+		
+	</div><!-- listWrap -->
+	</div><!-- bookmarkWrap -->
 </div><!-- wrap-navi -->
 
 </div><!-- container -->

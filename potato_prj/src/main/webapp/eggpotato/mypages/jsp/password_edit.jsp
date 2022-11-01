@@ -14,7 +14,11 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
-
+$(function() {
+	$(".pw_edit_form_btn").click(function() {
+		confirm("비밀번호가 수정되었습니다.")
+	});//click
+});//ready
 </script>
 
 </head>
@@ -48,7 +52,7 @@
 
 <%-- 네비바 끝 --%>
 <!-- 작업 시작 -->
-<!-- <div class="pw_edit_title">비밀번호 수정</div> --><!-- 얘가 문제였음 일단 보류! -->
+<div class="pw_edit_title">비밀번호 수정
 	<div class="pw_edit_form">
 		<table>
 			<tr>
@@ -61,7 +65,7 @@
 				<th><label for="password">신규 비밀번호</label></th>
 				<td>
 					<input type="password" id="password" name="newpassword" placeholder="비밀번호를 입력해주세요." class="pw">
-					<span>* 비밀번호는 *8~20자의 영문,숫자,특수문자를 혼합하여 입력해주세요.</span>
+					<span class="txt">* 비밀번호는 *8~20자의 영문,숫자,특수문자를 혼합하여 입력해주세요.</span>
 				</td>
 			</tr>
 			<tr>
@@ -75,6 +79,7 @@
 	<button class="pw_edit_form_btn">확인</button>
 
 	</div><!-- pw_edit_form -->
+	</div> 
 </div><!-- wrap-navi -->
 
 </div><!-- container 건들면 안됩니다....! -->
