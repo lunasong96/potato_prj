@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.write-wrap {
+	width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;	
+}
+
+.cancle-btn {
+    background: transparent;	
+}
+
+.bi-x-circle-fill {
+	width: 38px;
+    height: 38px;
+    fill: #C89E6C;	
+}
+
+.top > span {
+	font-size: 38px;
+    font-weight: bold;	
+}
+
+.ok-btn {
+	font-size: 30px;
+    font-weight: bold;
+    color: #C89E6C;
+    background: transparent;	
+}
+
+.write-box {
+    width: 1200px;
+    height: 600px;
+    border: 1px solid #bebebe;
+    margin-top: 10px;
+    border-radius: 5px;	
+    background: #fff;
+}
