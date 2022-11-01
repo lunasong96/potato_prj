@@ -8,7 +8,7 @@
 <link rel="shortcut icon"  href="../../images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/user_wrap_container.css"/>
-<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+<link rel="stylesheet" type="text/css" href="../css/join_img.css"/>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
@@ -25,29 +25,22 @@
 
 <!-- container -->
 <div class="container">
-	<!-- loginBox -->
-	<div class="box-login">
-		<div class="login-top">로그인</div>
+	<!-- box-main -->
+	<div class="box-main">
+		<div class="navigation_wrap">
+			<div class="bar_navigation" style="width: 80%;">20%</div>
+		</div>
 		<!-- main -->
-		<div class="login-main">
-			<input type="text" placeholder="아이디" class="id"><br/>
-			<input type="password" placeholder="비밀번호" class="pass"><br/>
-			<input type="button" value="로그인" class="loginBtn">
+		<div class="main-container">
+			<h2 class="main-title">프로필 사진</h2><br/>
+			<img src="../images/img1.png" class="main-profile"/><br/>
+			<input type="button" value="사진등록" class="imgBtn">
+			<input type="button" value="삭제" class="imgBtn">
+			<input type="button" value="가입하기" class="joinBtn">
 		</div>
 		<!-- //main -->
-		<!-- info -->
-		<div class="login-info">
-			<div class="info-sign">
-				<a href="#void">회원가입</a>
-			</div>
-			<div class="info-find">
-				<a href="#void">아이디</a> | 
-				<a href="#void">비밀번호 찾기</a>
-			</div>
-		</div>
-		<!-- //info -->
 	</div>
-	<!-- //loginBox -->
+	<!-- //box-main -->
 </div>
 <!-- container end -->
 
