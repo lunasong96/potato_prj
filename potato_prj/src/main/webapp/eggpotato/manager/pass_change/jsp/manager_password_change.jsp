@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>비밀번호 변경</title>
+<title>Manager Password Change</title>
 <link rel="shortcut icon"  href="../../../images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="../../../common/css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="../../m_common/m_css/manager_wrap_container.css"/>
@@ -30,9 +30,6 @@ $(function(){
 	});//click
 });
 
-function showPopup(){
-	window.open("pass_change_popup.jsp","비밀번호 변경 팝업","width=400, height=300, left=100, top=50");
-}
 </script>
 </head>
 <body>
@@ -87,7 +84,7 @@ function showPopup(){
 		</div><!-- passChange end -->
 	
 		<div>
-			<input type="button" value="확인" class="btn" id="btn" onclick="showPopup()"/>
+			<input type="button" value="확인" class="btn" id="btn"/>
 		</div>
 <!-- 건들지마세요 -->
 	</div>

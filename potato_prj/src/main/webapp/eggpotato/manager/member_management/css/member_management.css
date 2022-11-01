@@ -47,7 +47,7 @@
 .search_wrap {
 	border: 1px solid #e9ecef;
 	font-size: 18px;
-	width: 500px;
+	width: 550px;
 	height: 45px;
 	border-radius: 5px;
 	display: flex;
@@ -73,8 +73,49 @@
 }
 
 /* 테이블 */
-.table-wrap {
+.table_wrap {
 	width: 1020px;
 	height: 500px;
 	overflow: auto;
+}
+
+.table1, .table2, .table3 {
+      border-collapse: collapse;
+      width: 100%;
+}
+
+.table1 th, .table2 th, .table3  th {
+	  color: #0A0400;
+      background: #E5E9EA;
+      text-align: center;
+}
+
+.table1 th, .table2 th, .table3 th, .table1 td, .table2 td, .table3 td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: center;
+      font-size: 15px; 
+      height: 20px;
+      line-height: 20px;
+}
+
+table1 th:first-child, table td:first-child {
+      border-left: 0;
+}
+
+table th:last-child, table td:last-child {
+      border-right: 0;
+}
+
+table tr td:first-child, table td:last-child {
+      text-align: center;
+}
+
+#btn {
+	width: 60px;
+	height: 25px;
+	background-color: #E74C3C;
+	border:1px solid #E74C3C;
+	border-radius: 6px;
+	color: #FFFFFF;
 }

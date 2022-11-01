@@ -15,12 +15,6 @@
 
 <script type="text/javascript">
 $(function(){
-	
-	//셀렉트 선택하면 선택한 테이블을 보여준다.
-	$("#memberCat").change(function(){
-		
-	});//change
-	
 	//검색버튼 클릭
 	$("#searchBtn").click(function(){
 		var input=$("#idSearch").val();
@@ -28,9 +22,42 @@ $(function(){
 			alert("2자 이상 입력하세요.");
 			return;
 		}
-	});//click
+	});
+		
+	//차단 해제 버튼 클릭 시
+	$("#unblockBtn").click(function(){
+		alert("차단 해제되었습니다. ")
+	});
+	
+	
 });//ready
 
+//셀렉트 선택하면 선택한 테이블을 보여준다.
+function tableChange(){
+	var key=$("#memberCat").val();
+	
+	if(key==1){
+		 document.all["t1"].style.display="block";
+		 document.all["t2"].style.display="none";
+		 document.all["t3"].style.display="none";
+	}
+	if(key==2){
+		 document.all["t1"].style.display="none";
+		 document.all["t2"].style.display="block";
+		 document.all["t3"].style.display="none";
+	}
+	if(key==3){
+		 document.all["t1"].style.display="none";
+		 document.all["t2"].style.display="none";
+		 document.all["t3"].style.display="block";
+	}
+}//tableChange
+
+	//신고 버튼 클릭시 팝업창 보여주기
+	function showPopup(){
+		open("member_block_popup.jsp","member_block_popup",
+				"width=520,height=620,top=203,left=1336")
+	}
 </script>
 </head>
 <body>
@@ -57,36 +84,63 @@ $(function(){
 		<div class="member_management">
 			
 			<div class="mm_top">
-				<input hidden="hidden"><select id="memberCat" name="category" class="select_category">
-					<option>전체 사용자</option>
-					<option>탈퇴 회원</option>
-					<option>차단 회원</option>
+				<input hidden="hidden"><select id="memberCat" name="memberCat" class="select_category" onchange="tableChange()">
+					<option value="1">전체 사용자</option>
+					<option value="2">탈퇴 회원</option>
+					<option value="3">차단 회원</option>
 				</select>
+				
 				<div class="search_wrap">
-					<input type="text" id="idSearch" name="idSearch" value="" class="search_txt" placeholder="아이디를 입력해주세요." autocomplete="off">
+					<input type="text" id="idSearch" name="idSearch" class="search_txt" placeholder="아이디를 입력해주세요." autocomplete="off">
 					<button type="button" class="search_btn" id="searchBtn"><strong>검색</strong></button>
 				</div>			
 			</div><!-- mm_top end -->
 			
 			<div class="table_wrap">
+				<div id="t1" style="display: block"><!-- 초기로딩시 보임 -->
 				<table class="table1">
 				<!-- 전체사용자 클릭 시 -->
 				<tr><th>아이디명</th><th>회원명</th><th>가입날짜</th><th>생년월일</th><th>차단</th></tr>
 				<tr>
 				<td>q1w2e3r4t5</td><td>홍길동</td><td>2022-06-17</td><td>2022.09.11</td>
-				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단"></td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
+				<tr>
+				<td>q1w2e3r4t5</td><td>홍길동</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
+				<tr>
+				<td>q1w2e3r4t5</td><td>홍길동</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
+				<tr>
+				<td>q1w2e3r4t5</td><td>홍길동</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
 				</tr>
 				</table>
+				</div>
 				
-				<table class="table2">
+				<div id="t2" style="display: none"> <!-- 처음 로딩시 숨김 상태 -->
 				<!-- 탈퇴 회원 클릭 시 -->
+				<table class="table2">
 				<tr><th>아이디명</th><th>회원명</th><th>가입날짜</th><th>탈퇴날짜</th></tr>
+				<tr><td>eggpotato</td><td>이유리</td><td>2022-06-17</td><td>2022-11-28</td></tr>
+				<tr><td>whitepotato</td><td>정주은</td><td>2022-06-17</td><td>2022-11-28</td></tr>
+				<tr><td>yellowpotato</td><td>정현지</td><td>2022-06-17</td><td>2022-11-28</td></tr>
+				<tr><td>purplepotato</td><td>홍아람</td><td>2022-06-17</td><td>2022-11-28</td></tr>
 				</table>
+				</div>
 				
-				<table class="table3">
+				<div id="t3" style="display: none"> <!-- 처음 로딩시 숨김상태 -->
 				<!-- 차단 회원 클릭 시 -->
+				<table class="table3">
 				<tr><th>아이디명</th><th>회원명</th><th>차단사유</th><th>차단해제</th></tr>
+				<tr><td>redpotato</td><td>송성우</td><td>과도한 스팸홍보/도배를 했어요.</td>
+				<td><input type="button" class="inputBtn" id="unblockBtn" name="unblockBtn" value="해제"></td></tr>
+				<tr><td>potato</td><td>차승주</td><td>개인정보를 노출했어요.</td>
+				<td><input type="button" class="inputBtn" id="unblockBtn" name="unblockBtn" value="해제"></td></tr>
 				</table>
+				</div>
 			
 			</div>
 		</div><!-- 본문 끝 -->
