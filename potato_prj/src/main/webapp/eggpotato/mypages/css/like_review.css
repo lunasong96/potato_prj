@@ -76,6 +76,13 @@
 	display: flex;
 	margin-right: 10px;
 }
+.bi-bell-fill:hover {
+	animation-duration: 2s;
+	animation-name: bell;
+	animation-iteration-count: infinite;	
+	color: #ffca2b;
+}
+
 
 .reviewBottomR{
 	width:996px;

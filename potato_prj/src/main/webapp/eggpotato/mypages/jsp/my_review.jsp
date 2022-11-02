@@ -13,7 +13,10 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
-
+//하트아이콘
+$(document).on("click", ".heart-btn", function() {
+	$(this).toggleClass("hb-fill");
+})
 </script>
 
 </head>
@@ -102,15 +105,14 @@
 
 <div class="reviewBottom">
 	<div class="reviewBottomL"> 
-		<button class="like" type="button">
-			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#DA5061" class="bi bi-heart-fill" viewBox="0 0 16 16">
+		<div class="heart-btn-icon">
+		<button class="heart-btn" type="button">
+			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
 	  		<path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 			</svg>
-			&nbsp;좋아요
-				<span class='likeCnt'>
-					(2)
-				</span>
-		</button><!-- like -->
+		</button><!-- heart-btn -->
+				<span class='likeCnt'>좋아요(2)</span>
+		</div>
 		<button class="edit" type="button">
 				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
 		  		<path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>

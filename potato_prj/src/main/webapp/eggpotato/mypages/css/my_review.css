@@ -64,12 +64,37 @@
 	margin-top:20px;
 	display: flex;
 }
-
-.like{
-	background-color: transparent;
+.heart-btn-icon{
 	display: flex;
-	margin-right: 10px;
+}
+.heart-btn{
+	background-color: transparent;
+	color: #333333;
+	display: flex;
 	align-items: center;
+}
+.heart-btn:hover {
+	animation-duration: 2s;
+	animation-name: heart;
+	animation-iteration-count: infinite;
+}
+
+@keyframes heart {
+	0% {transform: scale(1.2);}
+	10% {transform: scale(0.9);}
+	20% {transform: scale(1.2);}
+	30% {transform: scale(0.9);}
+	40% {transform: scale(1.2);}
+	50% {transform: scale(0.9);}
+	60% {transform: scale(1.2);}
+	70% {transform: scale(0.9);}
+	80% {transform: scale(1.2);}
+	90% {transform: scale(0.9);}
+	100% {transform: scale(1.2);}
+}
+
+.bi bi-heart-fill {
+	color: red;
 }
 
 .edit{
