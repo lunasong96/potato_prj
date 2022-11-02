@@ -66,15 +66,23 @@ $(function() {
 			</div><!-- profileImg -->
 		</div><!-- profile -->
 	<div class="listWrap">
-		<div class="list">xx휴게소<button class="del">삭제</button></div>
-		<div class="list">oo휴게소<button class="del">삭제</button></div>
-		<div class="list">ㄱㄱ휴게소<button class="del">삭제</button></div>
-		<div class="list">ㄴㄴ휴게소<button class="del">삭제</button></div>
-		<div class="list">ㄷㄷ휴게소<button class="del">삭제</button></div>
-		<div class="list">ㄹㄹ휴게소<button class="del">삭제</button></div>
-		<div class="list">ㅁㅁ휴게소<button class="del">삭제</button></div>
-		<div class="list">ㅂㅂ휴게소<button class="del">삭제</button></div>
-		<div class="list">얍 휴게소<button class="del">삭제</button></div>
+		<div class="list">
+			<span class="list-item">xx휴게소</span>
+			<button class="del">삭제</button>
+		</div>
+		<div class="list">
+			<span class="list-item">냠냠 휴게소</span>
+			<button class="del">삭제</button>
+		</div>
+		<div class="list">
+			<span class="list-item">꼭꼭 휴게소</span>
+			<button class="del">삭제</button>
+		</div>
+		<div class="list">
+			<span class="list-item">얍얍 휴게소</span>
+			<button class="del">삭제</button>
+		</div>
+		
 		
 	</div><!-- listWrap -->
 	</div><!-- bookmarkWrap -->

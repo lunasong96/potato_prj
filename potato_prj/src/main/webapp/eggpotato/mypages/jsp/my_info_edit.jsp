@@ -63,7 +63,7 @@
 		</tr>
 		<tr>
 			<th><label>성명</label></th>
-			<td><input type="text" value="" id="name" readonly="readonly"></td>
+			<td><input type="text" value="" id="name" ></td>
 		</tr>
 		<tr>
 			<th><label>닉네임</label></th>
@@ -76,13 +76,13 @@
 		<tr>
 			<th><label>생년월일</label></th>
 				<td>
-					<input type="date" name="birth" id="birth"  value="" readonly="readonly" class="birth">
+					<input type="date" name="birth" id="birth"  value=""  class="birth">
 				</td>
 		</tr>
 		<tr>
 			<th><label>휴대폰</label></th>
 				<td>
-					<input type="text" name="phone_num" value="" readonly="readonly">
+					<input type="text" name="phone_num" value="" r>
 				</td>
 		</tr>
 		<tr>

@@ -2,6 +2,7 @@
 
 .wrap-navi{
 	display: flex;
+	height: max-content;
 }
 .navi{
 	display: flex;
