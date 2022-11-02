@@ -98,3 +98,22 @@
 	margin-top: 10px;
 	align-items: center;
 }
+/* 페이지 */
+.page{
+	display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.page-num{
+    color: #000;
+	background-color: #F4F4F4;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 12px;
+}
+.page-num:hover{
+    color: #FFF;
+    background-color: #C89E6C;
+
+}
