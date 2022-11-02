@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* 제목 */
+.title {
+	display: block;
+	margin: 0px auto;
+	padding: 35px 0 20px 0;
+	width: 539px;
+	height: 80px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px auto;
+}
+
+/* 회원 정보 */
+.information {
+	width: 539px;
+	margin: 0px auto;
+	border: 1px solid #E0E0E0;
+	border-radius:5px;
+	overflow: hidden;
+}
+
+.information>table {
+	width: 100%;
+	text-align: left;
+}
+
+.information table tr td input[type="text"] {
+	height: 37px;
+	border: 1px solid #dedede;
+	font-size: 14px;
+	padding: 0 20px;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.information table tr td input[type="date"] {
+	height: 37px;
+	border: 1px solid #dedede;
+	font-size: 14px;
+	padding: 0 20px;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.information table tr td .inputTxt {
+	width: 150px;
+}
+
+/* 닫기 버튼 */
+.closeBtn {
+	background-color: #C89E6C;
+	color: #FFFFFF;
+	font-size: 18px;
+	border: 0px;
+	border-radius: 10px;
+	padding: 15px 60px;
+}
+

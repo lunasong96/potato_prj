@@ -52,11 +52,16 @@ function tableChange(){
 		 document.all["t3"].style.display="block";
 	}
 }//tableChange
-
+	
+	//사용자 아이디 클릭시 상세 정보 팝업창 보여주기
+	function infoPopup(){
+		window.open("member_info_popup.jsp","member_detail_info_popup",
+				"width=539,height=474,top=203,left=1336")
+	}
 	//신고 버튼 클릭시 팝업창 보여주기
 	function showPopup(){
-		open("member_block_popup.jsp","member_block_popup",
-				"width=520,height=620,top=203,left=1336")
+		window.open("member_block_popup.jsp","member_block_popup",
+				"width=539,height=474,top=203,left=1336")
 	}
 </script>
 </head>
@@ -100,21 +105,37 @@ function tableChange(){
 				<div id="t1" style="display: block"><!-- 초기로딩시 보임 -->
 				<table class="table1">
 				<!-- 전체사용자 클릭 시 -->
-				<tr><th>아이디명</th><th>회원명</th><th>가입날짜</th><th>생년월일</th><th>차단</th></tr>
+				<tr><th>아이디명</th><th>별명</th><th>가입날짜</th><th>생년월일</th><th>차단</th></tr>
 				<tr>
-				<td>q1w2e3r4t5</td><td>홍길동</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>감자빵</td><td>2022-06-17</td><td>2022.09.11</td>
 				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
 				</tr>
 				<tr>
-				<td>q1w2e3r4t5</td><td>홍길동</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>수미칩</td><td>2022-06-17</td><td>2022.09.11</td>
 				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
 				</tr>
 				<tr>
-				<td>q1w2e3r4t5</td><td>홍길동</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>눈을감자</td><td>2022-06-17</td><td>2022.09.11</td>
 				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
 				</tr>
 				<tr>
-				<td>q1w2e3r4t5</td><td>홍길동</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>오감자</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
+				<tr>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>감자칩</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
+				<tr>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>허니버터칩</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
+				<tr>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>웨지감자</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
+				<tr>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>감자나라</td><td>2022-06-17</td><td>2022.09.11</td>
 				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
 				</tr>
 				</table>
@@ -123,21 +144,21 @@ function tableChange(){
 				<div id="t2" style="display: none"> <!-- 처음 로딩시 숨김 상태 -->
 				<!-- 탈퇴 회원 클릭 시 -->
 				<table class="table2">
-				<tr><th>아이디명</th><th>회원명</th><th>가입날짜</th><th>탈퇴날짜</th></tr>
-				<tr><td>eggpotato</td><td>이유리</td><td>2022-06-17</td><td>2022-11-28</td></tr>
-				<tr><td>whitepotato</td><td>정주은</td><td>2022-06-17</td><td>2022-11-28</td></tr>
-				<tr><td>yellowpotato</td><td>정현지</td><td>2022-06-17</td><td>2022-11-28</td></tr>
-				<tr><td>purplepotato</td><td>홍아람</td><td>2022-06-17</td><td>2022-11-28</td></tr>
+				<tr><th>아이디명</th><th>별명</th><th>가입날짜</th><th>탈퇴날짜</th></tr>
+				<tr><td>eggpotato</td><td>감자는맛있지</td><td>2022-06-17</td><td>2022-11-28</td></tr>
+				<tr><td>whitepotato</td><td>감자감자왕감자</td><td>2022-06-17</td><td>2022-11-28</td></tr>
+				<tr><td>yellowpotato</td><td>알감자는소금</td><td>2022-06-17</td><td>2022-11-28</td></tr>
+				<tr><td>purplepotato</td><td>감자머리</td><td>2022-06-17</td><td>2022-11-28</td></tr>
 				</table>
 				</div>
 				
 				<div id="t3" style="display: none"> <!-- 처음 로딩시 숨김상태 -->
 				<!-- 차단 회원 클릭 시 -->
 				<table class="table3">
-				<tr><th>아이디명</th><th>회원명</th><th>차단사유</th><th>차단해제</th></tr>
-				<tr><td>redpotato</td><td>송성우</td><td>과도한 스팸홍보/도배를 했어요.</td>
+				<tr><th>아이디명</th><th>별명</th><th>차단사유</th><th>차단해제</th></tr>
+				<tr><td>redpotato</td><td>감자팔이</td><td>리뷰와 상관없는 내용 도배</td>
 				<td><input type="button" class="inputBtn" id="unblockBtn" name="unblockBtn" value="해제"></td></tr>
-				<tr><td>potato</td><td>차승주</td><td>개인정보를 노출했어요.</td>
+				<tr><td>potato</td><td>감자돌이</td><td>개인정보 유출 위험</td>
 				<td><input type="button" class="inputBtn" id="unblockBtn" name="unblockBtn" value="해제"></td></tr>
 				</table>
 				</div>

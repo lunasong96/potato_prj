@@ -111,7 +111,7 @@ table tr td:first-child, table td:last-child {
       text-align: center;
 }
 
-#btn {
+#blockBtn,#unblockBtn {
 	width: 60px;
 	height: 25px;
 	background-color: #E74C3C;
