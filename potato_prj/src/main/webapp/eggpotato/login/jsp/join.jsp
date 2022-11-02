@@ -50,7 +50,10 @@
 			<input type="text" placeholder="이메일" class="text-join"><br/>
 			<h2 class="input-title">휴대전화</h2>
 			<input type="text" placeholder="전화번호 입력" class="text-join"><br/>
+			<h2 class="input-title">우편번호</h2>
+			<input type="text" placeholder="우편번호 입력" class="text-join" readonly><br/>
 			<input type="button" value="다음" class="nextBtn">
+			
 		</div>
 		<!-- //main -->
 	</div>
