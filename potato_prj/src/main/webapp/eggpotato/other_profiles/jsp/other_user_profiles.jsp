@@ -328,11 +328,11 @@ function slider() {
 
 <!-- 페이지 -->
 <div class="page">
-	<a href="#void" class="page-num">&nbsp; &lt; &nbsp;</a>
+	<a href="#void" class="page-num">&nbsp;&lt;&nbsp;</a>
 	<a href="#void" class="page-num">&nbsp;1&nbsp;</a>
 	<a href="#void" class="page-num">&nbsp;2&nbsp;</a>
 	<a href="#void" class="page-num">&nbsp;3&nbsp;</a>
-	<a href="#void" class="page-num">&nbsp; &gt; &nbsp;</a>
+	<a href="#void" class="page-num">&nbsp;&gt;&nbsp;</a>
 </div>
 
 </div>

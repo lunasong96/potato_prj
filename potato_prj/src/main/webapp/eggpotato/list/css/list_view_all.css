@@ -171,6 +171,7 @@ a {
 }
 
 .page-num{
+	font-size: 16px;
     color: #000;
 	background-color: #F4F4F4;
     border-radius: 10px;

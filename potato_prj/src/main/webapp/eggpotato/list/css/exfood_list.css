@@ -57,6 +57,7 @@ a {
 
 .food-navibar {
 	display: flex;
+	width: 330px;
     padding-left: 25px;
     list-style: none;
     flex-direction: column;
@@ -70,16 +71,17 @@ a {
 }
 
 .food-navibar > li {
-	display: flex;
+    display: flex;
     flex-direction: row;
     border-left: 5px solid #c89e6c;
-    margin: 15px;
-    padding: 0px 15px;
+    margin: 15px 0;
+    padding-left: 15px;
     align-items: center;
+    cursor: pointer;
 }
 
 .navi-do{
-	font-size: 18px;
+	font-size: 24px;
     font-weight: bold;
     color: #5C3300 !important;
     margin: 0 !important;

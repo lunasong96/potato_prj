@@ -70,31 +70,31 @@
 								<div class="navi-logo"><img src="../../images/ex-food로고.png" class="img"></div>
 							</li>
 							<li class="food-navi-item">
-								<div class="navi-do">강</div>
+								<div class="navi-do">강원</div>
 								<div class="navi-logo"><img src="../../images/ex-food로고.png" class="img"></div>
 							</li>
 							<li class="food-navi-item">
-								<div class="navi-do">충</div>
+								<div class="navi-do">충북</div>
 								<div class="navi-logo"><img src="../../images/ex-food로고.png" class="img"></div>
 							</li>
 							<li class="food-navi-item">
-								<div class="navi-do">대</div>
+								<div class="navi-do">대전 충남</div>
 								<div class="navi-logo"><img src="../../images/ex-food로고.png" class="img"></div>
 							</li>
 							<li class="food-navi-item">
-								<div class="navi-do">전</div>
+								<div class="navi-do">전북</div>
 								<div class="navi-logo"><img src="../../images/ex-food로고.png" class="img"></div>
 							</li>
 							<li class="food-navi-item">
-								<div class="navi-do">광</div>
+								<div class="navi-do">광주 전남</div>
 								<div class="navi-logo"><img src="../../images/ex-food로고.png" class="img"></div>
 							</li>
 							<li class="food-navi-item">
-								<div class="navi-do">대</div>
+								<div class="navi-do">대구 경북</div>
 								<div class="navi-logo"><img src="../../images/ex-food로고.png" class="img"></div>
 							</li>
 							<li class="food-navi-item">
-								<div class="navi-do">부</div>
+								<div class="navi-do">부산 경남</div>
 								<div class="navi-logo"><img src="../../images/ex-food로고.png" class="img"></div>
 							</li>
 						</ul>
