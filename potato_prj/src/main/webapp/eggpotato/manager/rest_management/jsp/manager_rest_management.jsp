@@ -18,7 +18,11 @@ $(function(){
 		open("manager_rest_write_popup.jsp","write_popup","width=950,height=900,top=311,left=560")
 	});
 	
-})
+});
+
+$(document).on("click",".popup-btn",function(){
+	open("rest_popup.jsp","rest_popup","width=1900,height=900,top=311,left=560");
+});
 </script>
 </head>
 <body>
@@ -67,28 +71,28 @@ $(function(){
 						<div class="icon-sector">
 							<!-- 추후 이미지 아이콘 추가 -->
 							<span>
-								<img src="" ><span>수면실</span>
+								<img src="../../../images/sleep.png" ><span>수면실</span>
 							</span>
 							<span>
-								<img src="" ><span>샤워실</span>
+								<img src="../../../images/shower.png" ><span>샤워실</span>
 							</span>
 							<span>
-								<img src="" ><span>세탁실</span>
+								<img src="../../../images/washing.png" ><span>세탁실</span>
 							</span>
 							<span>
-								<img src="" ><span>쉼터</span>
+								<img src="../../../images/rest.png" ><span>쉼터</span>
 							</span>
 							<span>
-								<img src="" ><span>이발소</span>
+								<img src="../../../images/barber.png" ><span>이발소</span>
 							</span>
 							<span>
-								<img src="" ><span>수유실</span>
+								<img src="../../../images/baby.png" ><span>수유실</span>
 							</span>
 							<span>
-								<img src="" ><span>약국</span>
+								<img src="../../../images/pharmacy.png" ><span>약국</span>
 							</span>
 							<span>
-								<img src="" ><span>농산물 판매</span>
+								<img src="../../../images/market.png" ><span>농산물 판매</span>
 							</span>
 						</div>
 					</div>
