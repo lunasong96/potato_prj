@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>휴게소 상세창</title>
 <link rel="shortcut icon"  href="../../images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/user_wrap_container.css"/>
@@ -206,7 +206,7 @@ function slider() {
 			</button>
 			<span>즐겨찾기</span>
 			<div>
-				<a href="" class="review-link">리뷰쓰기</a>
+				<a href="write.jsp" class="review-link">리뷰쓰기</a>
 			</div>
 		</div>
 	</div>

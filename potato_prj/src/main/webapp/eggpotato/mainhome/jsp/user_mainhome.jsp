@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>메인화면</title>
 <link rel="shortcut icon"  href="../../images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/user_wrap_container.css"/>
@@ -44,6 +44,10 @@ $(function() {
 	var map = new kakao.maps.Map(mapContainer, mapOption); 
 })
 
+function sidebar() {
+	$(".side").toggleClass("side-add");
+}
+
 </script>
 
 </head>
@@ -67,6 +71,11 @@ $(function() {
 			<p>휴게소에 대한 다양한 정보를</p>
 			<p>이곳, <span>알감자</span>에서 얻어가세요.</p>
 		</div>
+		<button type="button" class="scroll-btn" onclick="$('html,body').stop().animate({scrollTop:'863'})">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+			  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+			</svg>
+		</button>
 	</div>
 	
 	<div class="middle-wrap">
@@ -217,6 +226,12 @@ $(function() {
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-pagination"></div>
 		</div>
+		<button type="button" class="scroll-btn" onclick="$('html,body').stop().animate({scrollTop:'1776'})">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+			  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+			</svg>
+		</button>
+		
 	</div>
 	
 	<div class="bottom-wrap">
@@ -227,6 +242,26 @@ $(function() {
 				정보가 궁금하다면? <br>
 			</p>
 			<a href="" class="map-link">휴게소 더보기</a>
+		</div>
+	</div>
+	
+	<div class="side">
+		<div class="yw-chk-wrap">
+			<input type="checkbox" class="youtube-chk" id="youtubechk" onclick="sidebar();">
+			<label class="chk-label" for="youtubechk">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+				  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+				</svg>
+			</label>
+		</div>
+		<div class="youtube-wrap">
+			<p>영상으로 보는 휴게소 맛집</p>
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/jp_Q11V-274" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Us4f2SqhkOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/x6Q7WTBKBSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			
 		</div>
 	</div>
 	

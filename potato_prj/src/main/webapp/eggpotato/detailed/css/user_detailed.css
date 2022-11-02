@@ -424,12 +424,13 @@ td > div > img {
 .no-review > svg {
     width: 100px;
     height: 100px;
-    fill: #333333;
+    fill: #bebebe;
     margin-bottom: 15px;	
 }
 
 .no-review > span {
 	font-size: 20px;	
+	color: #bebebe;
 }
 
 .review-exist {
