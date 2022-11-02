@@ -110,16 +110,15 @@ function slider() {
 <!-- 네비바 -->
 <!-- 건들지마  -->
 <div class="main">
+<!-- 타사용자 프로필 -->
+<div class="profile">
+	<span class="main-title">타사용자 리뷰모음</span>
+	<img src="http://localhost/html_prj/day0825/images/cimg.png" class="photo">
+	<span class="nick">알감자짱</span>
+</div>
+<!-- 타사용자 프로필 -->
 <!-- 리뷰 -->
-
 <div class="review-wrap">
-		<div class="review-txt">
-			<span>사용자 리뷰</span>
-			<div>
-				<span>전체 리뷰</span>
-				<span>3</span>
-			</div>
-		</div>
 		<div class="review-filter">
 			<div>
 				<a href="">최신순</a>

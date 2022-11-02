@@ -3,6 +3,31 @@
 .container {
 	background: #fff !important;
 }
+/* 프로필 */
+.profile{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.main-title{
+    font-size: 31px;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+.photo{
+	width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.nick{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px;
+}
 
 /* 리뷰 */
 .star-rate {
@@ -68,15 +93,6 @@
 .review-wrap {
 	width: 1300px;
     margin: 0 auto;
-    margin-top: 80px;
-}
-
-.review-txt {
-	display: flex;
-    justify-content: space-between;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 5px;
 }
 
 .review-txt > div > span:last-child {

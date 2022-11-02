@@ -51,7 +51,7 @@
 			<div class="main">
 				<!-- exfood 설명 -->
 				<div class="top"> 
-					<div class="logo"><img src="../../images/ex-food로고.png" class="img"></div>
+					<div class="logo"><img src="../../images/ex-food로고.png" class="top-img"></div>
 					<div class="logo-text">: 한국 도로공사가 휴게소 이용자와 전문가의 평가를 거쳐 선정하여
 					 맛과 질 모두 믿고 먹을 수 있는 고속도로 휴게소의 대표음식입니다. </div>
 				</div>
