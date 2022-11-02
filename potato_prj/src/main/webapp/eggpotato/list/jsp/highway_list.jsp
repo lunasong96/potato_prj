@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/user_wrap_container.css"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/user_navi2.css"/><%-- 네비바 필요한 사람만 --%>
-<link rel="stylesheet" type="text/css" href="../css/list_all.css"/>
+<link rel="stylesheet" type="text/css" href="../css/highway_list.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <!-- 지도api -->
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=38b2d30b9d0b819b032f0a5f8dc950c7"></script>
@@ -32,17 +32,17 @@
 		<div class="navi">
 			<ul class="navibar">
 				<li class="navi-item">
-					<a class="navi-link" href="list_all.jsp">전체 휴게소</a>
+					<a class="navi-link" href="list_view_all.jsp">전체 휴게소</a>
 				</li>
 				<li class="navi-item">
 					<a class="navi-link" href="highway_list.jsp">고속도로별 휴게소</a>
 				</li>
 				<li class="blank"></li>
 				<li class="navi-item">
-					<a class="navi-link" href="detailed_do_list.jsp">도별 휴게소</a>
+					<a class="navi-link" href="do_list.jsp">도별 휴게소</a>
 				</li>
 				<li class="navi-item">
-					<a class="navi-link" href="#void">ex-FOOD</a>
+					<a class="navi-link" href="exfood_list.jsp">ex-FOOD</a>
 				</li>
 			</ul>
 		</div>

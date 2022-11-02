@@ -70,7 +70,7 @@
 				new Chart(document.getElementById("mixed-chart"), {
 				    type: 'bar',
 				    data: {
-						  labels: ["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"],
+						  labels: ["10/25", "10/26", "10/27", "10/28", "10/29", "10/30", "10/31"],
 				      datasets: [{
 				          label: "총 누적 방문자 수",
 				          type: "line",
