@@ -289,6 +289,10 @@
     stroke: white;	
 }
 
+.chk-label {
+	cursor: pointer;
+}
+
 .youtube-wrap {
 	top: 120px;
     position: absolute;
