@@ -23,7 +23,7 @@
 
 </head>
 <body>
-<div class="title">회원정보보기</div>
+<div class="title">회원정보 보기</div>
 <div class="information">
 	<table>
 	<tr>
@@ -53,7 +53,7 @@
 	</table>
 	
 	<div class="informationBtn">
-		<button type="button" class="closeBtn" id="btn" value="닫기"></button>
+		<button type="button" class="closeBtn" id="btn">닫기</button>
 	</div>
 </div>
 </body>
