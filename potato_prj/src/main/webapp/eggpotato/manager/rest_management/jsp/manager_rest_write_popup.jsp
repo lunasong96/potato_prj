@@ -29,8 +29,11 @@
 				<div class="tumbnail-btn-wrap">
 					<span>썸네일</span>
 					<div>
-						<button type="button" class="round-blue-btn">등록</button>
-						<button type="button" class="round-blue-btn">삭제</button>
+						<div class="file-btn-wrap">
+							<input type="file" class="fileup"/>
+							<input type="button" class="round-blue-btn" value="등록">
+							<input type="button" class="round-blue-btn" value="삭제">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -45,7 +48,10 @@
 				</div>
 			</div>
 			<div class="food-info">
-				<span><button class="round-blue-btn">사진첨부</button></span>
+				<span>
+					<input type="file" class="fileup2"/>
+					<input type="button" class="round-blue-btn" value="사진첨부" />
+				</span>
 				<div class="food-detail">
 					<div class="food-img-wrap">
 						<img src="">
@@ -73,9 +79,9 @@
 						</span>
 						<span>
 							<label>대표메뉴</label>
-							<input type="checkbox"/>
+							<input type="radio" name="type"/>
 							<label>추천메뉴</label>
-							<input type="checkbox"/>
+							<input type="radio" name="type"/>
 						</span>
 					</div>
 				</div>

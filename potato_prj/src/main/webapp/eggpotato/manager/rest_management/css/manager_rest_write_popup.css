@@ -54,9 +54,16 @@
 	margin-bottom: 10px;
 }
 
-.tumbnail-btn-wrap div{
+/*  .tumbnail-btn-wrap div{
 	display:flex;
  	justify-content:space-around;
+}  */
+
+.file-btn-wrap{
+	display:flex;
+	justify-content:space-around;
+	position:relative;
+	
 }
 
 .round-blue-btn{
@@ -65,8 +72,19 @@
     background-color: #3498DB;
     border-radius: 20px;
     color: #fff;
-	  
+    border:0px;
+	cursor:pointer;
 }
+
+.fileup{
+	position: absolute;
+    left: 5px;
+    top: 0;
+    opacity: 0;
+    width: 45%;
+    height: 100%;
+}
+
 
 .sep{
 	margin-top:20px;
@@ -123,7 +141,18 @@
 }
 
 .food-info>span{
+	position:relative;
+	width:90px;
 	margin-bottom:10px;	
+}
+
+.fileup2{
+	position: absolute;
+    left: 0px;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .food-detail{
