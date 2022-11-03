@@ -14,7 +14,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).on("click",".popup-btn",function(){
-	open("my_review_popup.jsp","review_popup","width:1200px,height:900px,top=311,left=560");
+	open("my_review_popup.jsp","review_popup","width=1400,height=550,top=211,left=300");
 });
 
 
