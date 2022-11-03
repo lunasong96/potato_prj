@@ -24,20 +24,20 @@
 
 .board{
 	display: inline-block;
-	margin:25px;
+	margin:20px;
 }
 
 .board-text-1{
 	display: inline-block;
 	color: #5C3300;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: bold;
 	margin-bottom:8px;
 }
 
 .board-text-2{
 	display: inline-block;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 .label {
@@ -111,9 +111,10 @@
 }
 
 .list-label-3 {
-	margin: 20px 60px 38px 60px;
-	text-align: center;
-	border-bottom: 1px solid #000;
+    margin: 20px 115px 25px 115px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid #000;
 }
 
 .list-text-1 {

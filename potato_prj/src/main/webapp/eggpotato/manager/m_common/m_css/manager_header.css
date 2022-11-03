@@ -74,7 +74,7 @@
     position: absolute;
     top: 100px;
     width: 250px;
-	height: 1222px;
+	height: 1207px;
     background-color: #FDEEDC;
 }
 
@@ -83,13 +83,11 @@
 }
 
 .navi {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 .navibar {
 	display: flex;
-    padding-left: 25px;
-    list-style: none;
     flex-direction: column;
 }
 
@@ -101,11 +99,13 @@
 }
 
 .navibar > li {
-    width: 200px;
     position: relative;
     line-height: 40px;
-    padding: 10px 0;
-    border-bottom: 1px solid grey;
+	padding: 15px 20px;
+}
+
+.navi-item:hover{
+	background-color: #FFF;
 }
 
 /* header css end */
