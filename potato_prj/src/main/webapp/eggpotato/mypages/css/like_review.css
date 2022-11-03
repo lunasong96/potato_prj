@@ -64,23 +64,59 @@
 	margin-top:20px;
 	display: flex;
 }
+.heart-icon{
+	display: flex;
+	margin-right:5px; 
+}
 
-
-.like{
+.heart-btn{
 	background-color: transparent;
 	display: flex;
-	margin-right: 10px;
+	color: #333333;
+	margin-right: 5px;
+}
+.heart-btn:hover {
+	animation-duration: 2s;
+	animation-name: heart;
+	animation-iteration-count: infinite;
+}
+
+@keyframes heart {
+	0% {transform: scale(1.2);}
+	10% {transform: scale(0.9);}
+	20% {transform: scale(1.2);}
+	30% {transform: scale(0.9);}
+	40% {transform: scale(1.2);}
+	50% {transform: scale(0.9);}
+	60% {transform: scale(1.2);}
+	70% {transform: scale(0.9);}
+	80% {transform: scale(1.2);}
+	90% {transform: scale(0.9);}
+	100% {transform: scale(1.2);}
+}
+
+.hb-fill {
+	color: red;
+}
+
+.report-icon{
+	display: flex;
 }
 .report{
 	background-color: transparent;
 	display: flex;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 .bi-bell-fill:hover {
 	animation-duration: 2s;
 	animation-name: bell;
 	animation-iteration-count: infinite;	
 	color: #ffca2b;
+}
+@keyframes bell {
+	0%, 50% {transform: rotate(0deg);}
+	5%, 15%, 25%, 35%, 45%  {transform: rotate(13deg);}
+	10%, 20%, 30%, 40% {transform: rotate(-13deg);}
 }
 
 

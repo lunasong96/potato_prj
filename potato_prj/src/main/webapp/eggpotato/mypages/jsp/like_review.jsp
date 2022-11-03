@@ -13,7 +13,17 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
-
+$(function() {
+	$(".report-icon").click(function() {
+		window.open("report_review_popup.jsp",
+				"report_review_popup",
+				"width=520px,height=480px, top=230px, left=700px, scrolling=no");
+	});//click
+	//하트아이콘
+	$(document).on("click", ".heart-btn", function() {
+		$(this).toggleClass("hb-fill");
+	})
+});//ready
 </script>
 
 </head>
@@ -104,22 +114,22 @@
 	
 	<div class="reviewBottom">
 		<div class="reviewBottomL"> 
-			<button class="like" type="button">
-				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-		  		<path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-				</svg>
-				&nbsp;좋아요
-					<span class='likeCnt'>
-						(2)
-					</span>
-			</button><!-- like -->
-			
-			<button class="report" type="button">
-				<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
-	  			<path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
-				</svg>
-				&nbsp;신고
-			</button>
+			<div class="heart-icon">
+				<button class="heart-btn" type="button">
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+			  		<path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+					</svg>
+				</button><!-- heart-btn -->
+					<span class='likeCnt'>좋아요(2)</span>
+			</div><!-- heart-icon -->
+				<div class="report-icon">
+					<button class="report" type="button">
+						<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+			  			<path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+						</svg>
+					</button>
+						<span>신고</span>
+				</div>
 		</div><!-- reviewBottomL -->
 		<div class="reviewBottomR">
 			<!-- 날짜위치 -->2022.10.19

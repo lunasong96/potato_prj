@@ -64,13 +64,16 @@
 	margin-top:20px;
 	display: flex;
 }
-.heart-btn-icon{
+.heart-icon{
 	display: flex;
+	margin-right:5px; 
+	
 }
 .heart-btn{
 	background-color: transparent;
 	color: #333333;
 	display: flex;
+	margin-right: 5px;
 	align-items: center;
 }
 .heart-btn:hover {
@@ -93,18 +96,25 @@
 	100% {transform: scale(1.2);}
 }
 
-.bi bi-heart-fill {
+.hb-fill {
 	color: red;
 }
-
+.edit-icon{
+	display: flex;
+	margin-right: 5px;
+}
 .edit{
 	background-color: transparent;
 	display: flex;
-	margin-right: 10px;
+	margin-right: 3px;
+}
+.delete-icon{
+	display: flex;
 }
 .delete{
 	background-color: transparent;
 	display: flex;
+	margin-right: 5px;
 }
 
 .reviewBottomR{

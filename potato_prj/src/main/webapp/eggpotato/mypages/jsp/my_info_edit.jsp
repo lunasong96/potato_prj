@@ -97,9 +97,6 @@
 </div><!-- info_edit -->
 </div><!-- wrap-navi -->
 
-
-
-
 </div><!-- container 건들면 안돼 '0' -->
 <!-- container end -->
 
