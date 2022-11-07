@@ -64,6 +64,10 @@ a {
     cursor: pointer;
 }
 
+.btn:hover{
+	font-weight: bold;
+}
+
 .v-line {
 	border-left: thin solid #666666;
     height: 25px;

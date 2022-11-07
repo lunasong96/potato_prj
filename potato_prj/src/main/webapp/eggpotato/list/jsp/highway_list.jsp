@@ -55,7 +55,7 @@
 				<div class="cat-name">고속도로별 휴게소</div>
 			<div class="select-line">
 				<!-- 지도 -->
-				<div style="padding: 50px 100px;">
+				<div style="padding: 50px 50px;">
 				<div id="map" style="width:930px;height:1111px;">
 				<script type="text/javascript">
 			    var map = new kakao.maps.Map(document.getElementById('map'), { // 지도를 표시할 div
