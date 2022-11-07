@@ -83,7 +83,7 @@ function slider() {
 </script>
 </head>
 <body>
-<div class="wrap">
+<div class="wrap"><!-- wrap -->
 
 <!-- header -->
 <%@ include file="../../common/jsp/user_header.jsp" %>
@@ -92,7 +92,7 @@ function slider() {
 
 <div class="container"><!-- container -->
 <!-- 건들지마  -->
-<div class="main">
+<div class="main"><!-- main -->
 <!-- 타사용자 프로필 -->
 <div class="profile">
 	<img src="http://localhost/html_prj/day0825/images/cimg.png" class="photo">
@@ -240,7 +240,6 @@ function slider() {
 		<div class="re-left">
 			<img src="http://localhost/html_prj/day0825/images/cimg.png" alt="프로필사진">
 		</div>
-		
 		<div class="re-right">
 			<span>사진4개이하테스트</span>
 			<div class="star-rate">
@@ -253,7 +252,6 @@ function slider() {
 			<p class="re-txt">
 				첨부 사진이 4개 이하일 경우 슬라이드 X
 			</p>
-			
 			<div class="re-slider">
 				<div class="swiper-button-prev re-swiper-button-prev"></div>
 			    <div class="swiper re-mySwiper">
@@ -271,7 +269,6 @@ function slider() {
 			    </div>
 				<div class="swiper-button-next re-swiper-button-next"></div>
 			</div>
-		
 			<div class="etc-icon-wrap">
 				<div class="etc-icon">
 					<div class="heart-icon-wrap">
@@ -295,6 +292,7 @@ function slider() {
 			</div>
 		</div>
 	</div>
+</div>	
 <!-- 리뷰 -->
 
 <!-- 페이지 -->
@@ -306,7 +304,7 @@ function slider() {
 	<a href="#void" class="page-num">&nbsp;&gt;&nbsp;</a>
 </div>
 
-</div>
+</div><!-- main -->
 <!-- 건들지마  -->
 </div><!-- container end -->
 
@@ -314,6 +312,6 @@ function slider() {
 <%@ include file="../../common/jsp/user_footer.jsp" %>
 <!-- footer end -->
 
-</div>
+</div><!-- wrap -->
 </body>
 </html>
