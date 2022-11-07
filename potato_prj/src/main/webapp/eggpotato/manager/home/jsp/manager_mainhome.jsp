@@ -34,7 +34,7 @@
 			</svg><span class="text">대시보드</span>
 		</div>
 <!-- 현재 메뉴 -->
-		<div><!-- 1 -->
+		<div class="top-dash"><!-- 1 -->
 		<div class="top">
 		<div class="board"><span class="board-text-1">신규가입자 수</span><br><span class="board-text-2">10명</span></div>
 		<div class="board"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 16 16" color="#E0E0E0">

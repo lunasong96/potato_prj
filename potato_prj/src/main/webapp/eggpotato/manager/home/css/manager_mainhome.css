@@ -14,6 +14,11 @@
     font-weight: bold;
 }
 
+.top-dash{
+	display: flex;
+    justify-content: center;
+}
+
 .top{
 	display: inline-block;
 	margin: 0 30px 30px 0;
@@ -24,7 +29,7 @@
 
 .board{
 	display: inline-block;
-	margin:20px;
+	margin:25px;
 }
 
 .board-text-1{

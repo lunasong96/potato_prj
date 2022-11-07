@@ -110,8 +110,6 @@
 			<input type="button" value="서해안" class="btn">
 			<input type="button" value="영동" class="btn">
 			<input type="button" value="중부" class="btn">
-			<input type="button" value="중부내륙" class="btn">
-			<input type="button" value="서울양양" class="btn">
 			</div>
 		</div>	
 			</div>
