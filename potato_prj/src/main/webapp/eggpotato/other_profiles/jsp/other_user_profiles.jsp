@@ -9,7 +9,6 @@
 <link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/user_wrap_container.css"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/swiper-bundle2.min.css"/>
-<link rel="stylesheet" type="text/css" href="../../common/css/user_navi2.css"/><%-- 네비바 필요한 사람만 --%>
 <link rel="stylesheet" type="text/css" href="../css/other_user_profiles.css"/>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -92,45 +91,18 @@ function slider() {
 
 
 <div class="container"><!-- container -->
-<!-- 네비바 -->
-<div class="wrap-navi">
-		<div class="navi">
-			<ul class="navibar">
-				<li class="navi-item">
-					<a class="navi-link" href="other_user_profiles.jsp">리뷰보기</a>
-				</li>
-				<li class="blank"></li>
-				<li class="navi-item">
-				</li>
-				<li class="navi-item">
-				</li>
-			</ul>
-		</div>
-</div>
-<!-- 네비바 -->
 <!-- 건들지마  -->
 <div class="main">
 <!-- 타사용자 프로필 -->
 <div class="profile">
-	<span class="main-title">타사용자 리뷰모음</span>
 	<img src="http://localhost/html_prj/day0825/images/cimg.png" class="photo">
-	<span class="nick">알감자짱</span>
+	<span class="nick">휴게소하면알감자</span>
+	<span class="cnt">(리뷰 수 : 3건)</span>
 </div>
 <!-- 타사용자 프로필 -->
 <!-- 리뷰 -->
 <div class="review-wrap">
-		<div class="review-filter">
-			<div>
-				<a href="">최신순</a>
-			</div>
-			<div>
-				<a href="">과거순</a>
-			</div>
-		</div>
-	</div>
-	
-	
-	<div class="review-exist">
+		<div class="review-exist">
 		<div class="re-left">
 			<img src="http://localhost/html_prj/day0825/images/cimg.png" alt="프로필사진">
 		</div>

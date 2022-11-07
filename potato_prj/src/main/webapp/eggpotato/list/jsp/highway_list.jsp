@@ -53,8 +53,9 @@
 			<div class="main">
 				<!-- 카테고리명 -->
 				<div class="cat-name">고속도로별 휴게소</div>
+			<div class="select-line">
 				<!-- 지도 -->
-				<div style="padding: 50px 150px;">
+				<div style="padding: 50px 100px;">
 				<div id="map" style="width:930px;height:1111px;">
 				<script type="text/javascript">
 			    var map = new kakao.maps.Map(document.getElementById('map'), { // 지도를 표시할 div
@@ -103,6 +104,16 @@
 				</script>
 				</div>
 			</div>
+			<div style="padding:50px 0">
+			<input type="button" value="경부" class="btn">
+			<input type="button" value="남해" class="btn">
+			<input type="button" value="서해안" class="btn">
+			<input type="button" value="영동" class="btn">
+			<input type="button" value="중부" class="btn">
+			<input type="button" value="중부내륙" class="btn">
+			<input type="button" value="서울양양" class="btn">
+			</div>
+		</div>	
 			</div>
 <!-- 건들지마 -->
 </div>
