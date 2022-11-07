@@ -22,3 +22,7 @@ a {
 	border-bottom: 1px solid #666666;
 	padding: 15px 0;
 }
+
+.effect:hover{
+   filter: brightness(1);
+}
