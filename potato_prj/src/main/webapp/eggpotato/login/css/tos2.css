@@ -48,7 +48,7 @@
 }
 .main-container{
 	display: block;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	padding: 0px 50px 50px 50px;
 	margin: 0px auto;
 	
@@ -106,7 +106,7 @@
 }
 .line_or:before, .line_or:after {
     display: inline-block;
-    width: calc(50% - 20px);
+    width: 225px;
     height: 1px;
     margin: 8px 0;
     background-color: #C0C0C0;
@@ -115,5 +115,5 @@
 }
 textarea {
 	resize: none;
-	font-size: 15px;
+	font-size: 17px;
 }

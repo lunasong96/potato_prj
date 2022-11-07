@@ -12,7 +12,45 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
+function popUp1() {
+	
+	//창 크기 지정
+	var width = 600;
+	var height = 600;
+	
+	//pc화면기준 가운데 정렬
+	var left = (window.screen.width / 2) - (width/2);
+	var top = (window.screen.height / 4);
+	
+    	//윈도우 속성 지정
+	var windowStatus = 'width='+width+', height='+height+', left='+left+', top='+top+', scrollbars=no, status=yes, resizable=yes, titlebar=yes';
+	
+    	//연결하고싶은url
+    	const url = "tos2.jsp";
 
+	//등록된 url 및 window 속성 기준으로 팝업창을 연다.
+	window.open(url, "알감자 약관사항", windowStatus);
+}
+
+function popUp2() {
+	
+	//창 크기 지정
+	var width = 800;
+	var height = 600;
+	
+	//pc화면기준 가운데 정렬
+	var left = (window.screen.width / 2) - (width/2);
+	var top = (window.screen.height / 4);
+	
+    	//윈도우 속성 지정
+	var windowStatus = 'width='+width+', height='+height+', left='+left+', top='+top+', scrollbars=no, status=yes, resizable=yes, titlebar=yes';
+	
+    	//연결하고싶은url
+    	const url = "tos1.jsp";
+
+	//등록된 url 및 window 속성 기준으로 팝업창을 연다.
+	window.open(url, "알감자 개인정보 수집 및 이용 동의", windowStatus);
+}
 </script>
 
 </head>
@@ -49,13 +87,12 @@
 			<div class="check_agree">
 				<span class="form-check">
   				<input type="checkbox"/>
-  				<label class="text-s"><a href="tos2.jsp"
-  				onclick="window.open(this.href); return false;">[필수] 서비스 약관 동의</a></label>
+  				<label class="text-s"><a href="javascript:popUp1()">[필수] 서비스 약관 동의</a></label>
 				</span>
 			<div class="interval"></div>
 				<span class="form-check">
   				<input type="checkbox"/>
-  				<label class="text-s">[필수] 개인정보 수집 및 이용 동의</label>
+  				<label class="text-s"><a href="javascript:popUp2()">[필수] 개인정보 수집 및 이용 동의</a></label>
 				</span>
 			</div>
 			<input type="button" value="다음" class="nextBtn">
