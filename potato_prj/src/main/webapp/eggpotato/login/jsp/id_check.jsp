@@ -25,9 +25,6 @@
 		<div class="main-container">
 			<input type="text" class="check-text">
 			<input type="button" value="중복확인" class="checkBtn"><br/>
-			<span class="line_or">
-				::before
-			</span>
 			<input type="button" value="사용하기" class="useBtn">
 		</div>
 		<!-- //main -->
