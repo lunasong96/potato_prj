@@ -465,8 +465,9 @@ td > div > img {
 }
 
 .re-txt {
-	margin-top: 10px;
-    line-height: 1.5;	
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 15px;	
 }
 
 .re-slider {
