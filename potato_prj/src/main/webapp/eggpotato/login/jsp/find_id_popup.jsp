@@ -16,7 +16,6 @@
 </head>
 <body>
 <div class="wrap">
-<div class="container">
 	<!-- box-main -->
 	<div class="box-main">
 		
@@ -35,8 +34,6 @@
 		<!-- //main -->
 	</div>
 	<!-- //box-main -->
-</div>
-<!-- container end -->
 </div>
 </body>
 </html>

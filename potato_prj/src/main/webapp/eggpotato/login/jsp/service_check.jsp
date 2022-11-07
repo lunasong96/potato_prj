@@ -46,9 +46,10 @@
 			<div class="check_agree">
 				<span class="form-check">
   				<input type="checkbox"/>
-  				<label>[필수] 서비스 약관 동의</label>
+  				<label><a href="tos2.jsp"
+  				onclick="window.open(this.href); return false;">[필수] 서비스 약관 동의</a></label>
 				</span>
-				<div class="interval"></div>
+			<div class="interval"></div>
 				<span class="form-check">
   				<input type="checkbox"/>
   				<label>[필수] 개인정보 수집 및 이용 동의</label>

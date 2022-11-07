@@ -50,6 +50,8 @@
 	display: block;
 	margin-bottom: 50px;
 	padding: 0px 50px 50px 50px;
+	margin: 0px auto;
+	
 }
 
 
@@ -110,4 +112,8 @@
     background-color: #C0C0C0;
     vertical-align: top;
     content: '';
+}
+textarea {
+	resize: none;
+	font-size: 15px;
 }

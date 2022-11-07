@@ -38,11 +38,11 @@
 		<!-- info -->
 		<div class="login-info">
 			<div class="info-sign">
-				<a href="#void">회원가입</a>
+				<a href="http://localhost/potato_prj/eggpotato/login/jsp/service_check.jsp">회원가입</a>
 			</div>
 			<div class="info-find">
-				<a href="#void">아이디</a> | 
-				<a href="#void">비밀번호 찾기</a>
+				<a href="http://localhost/potato_prj/eggpotato/login/jsp/find_id.jsp">아이디</a> | 
+				<a href="http://localhost/potato_prj/eggpotato/login/jsp/find_pass.jsp">비밀번호 찾기</a>
 			</div>
 		</div>
 		<!-- //info -->

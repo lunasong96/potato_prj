@@ -50,9 +50,14 @@
 	display: block;
 	margin-bottom: 50px;
 	padding: 0px 50px 50px 50px;
-	font-size: 11px;
+	font-size: 14px;
 }
 
+.main-box{
+	width: 410px;
+	margin: 0px auto;
+	padding: 0px 40px 0px 0px;
+}
 
 .interval{
 	margin: 10px
@@ -107,7 +112,7 @@
     display: inline-block;
     width: calc(50% - 20px);
     height: 1px;
-    margin: 8px 0;
+    margin: 8px auto;
     background-color: #C0C0C0;
     vertical-align: top;
     content: '';

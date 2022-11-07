@@ -12,7 +12,11 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
-
+$(function() {
+	$("#findBtn").click(function() {
+		window.open("find_id_popup.jsp", "아이디 찾기", "width=350,height=320,top=220,left=700")
+	});
+});
 </script>
 
 </head>
@@ -38,7 +42,7 @@
 			<input type="text" placeholder="별명" class="text-box"><br/>
 			<h2 class="input-title">휴대전화</h2>
 			<input type="text" placeholder="전화번호 입력" class="text-box"><br/>
-			<input type="button" value="아이디 찾기" class="findBtn">
+			<input type="button" value="아이디 찾기" class="findBtn" id="findBtn">
 		</div>
 		<!-- //main -->
 	</div>
