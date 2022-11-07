@@ -49,7 +49,7 @@
 .main-container{
 	display: block;
 	margin-bottom: 50px;
-	padding: 0px 50px 50px 50px;
+	padding: 0px 50px 0px 50px;
 }
 
 
@@ -63,7 +63,7 @@
 	cursor: pointer;
 	background-color: #DEAE75;
 	border: 0px;
-	margin: 20px 20px 2px 20px;
+	margin: 20px 20px 20px 20px;
 }
 
 .useBtn{
@@ -72,7 +72,7 @@
 	cursor: pointer;
 	background-color: #A5A5A5;
 	border: 0px;
-	margin: 25px 20px 20px 20px;
+	margin: 20px auto;
 	color: #FFFFFF;
 }
 
@@ -84,29 +84,4 @@
 	margin: 10px;
 	border-width: 0px 0px 1px 0px;
 	border-bottom-color: #A5A5A5;
-}
-.line_or {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding: 15px 0;
-    font-size: 0;
-    line-height: 0;
-}
-.line_or .txt_or {
-    display: inline-block;
-    width: 40px;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: center;
-    color: rgba(0,0,0,0.3);
-}
-.line_or:before, .line_or:after {
-    display: inline-block;
-    width: calc(50% - 20px);
-    height: 1px;
-    margin: 8px 0;
-    background-color: #C0C0C0;
-    vertical-align: top;
-    content: '';
 }

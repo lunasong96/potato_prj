@@ -7,7 +7,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100%;
 }
 .box-title{
 	font-size: 30px;
@@ -21,7 +20,7 @@
 .box-main {
 	border: 1px solid #EEE;
 	display: block;
-	margin: 0px auto;
+	margin: 100px auto;
 	text-align: center;
 	width: 550px;
 	background-color: white;
