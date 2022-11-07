@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>회원가입 약관</title>
 <link rel="shortcut icon"  href="../../images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
 <link rel="stylesheet" type="text/css" href="../../common/css/user_wrap_container.css"/>

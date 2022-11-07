@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>아이디 중복확인 팝업창</title>
 <link rel="shortcut icon"  href="../../images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="../css/id_check.css"/>
 

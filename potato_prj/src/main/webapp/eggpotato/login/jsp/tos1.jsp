@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>알감자 개인정보 수집 및 이용 동의</title>
 <link rel="shortcut icon"  href="../../images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="../css/tos1.css"/>
 

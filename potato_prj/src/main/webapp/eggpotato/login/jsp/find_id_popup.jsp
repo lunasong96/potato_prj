@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>아이디 찾기 팝업창</title>
 <link rel="shortcut icon"  href="../../images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="../css/find_id_popup.css"/>
 
