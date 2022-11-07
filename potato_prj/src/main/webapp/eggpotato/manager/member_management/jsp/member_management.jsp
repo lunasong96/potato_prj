@@ -138,6 +138,22 @@ function tableChange(){
 				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>감자나라</td><td>2022-06-17</td><td>2022.09.11</td>
 				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
 				</tr>
+				<tr>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>감자국</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
+				<tr>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>포카칩은초록색</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
+				<tr>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>구운감자</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
+				<tr>
+				<td><a href="javascript:infoPopup()" style="color:black">q1w2e3r4t5</a></td><td>프링글스</td><td>2022-06-17</td><td>2022.09.11</td>
+				<td><input type="button" class="inputBtn" id="blockBtn" name="blockBtn" value="차단" onclick="showPopup()"></td>
+				</tr>
 				</table>
 				</div>
 				
