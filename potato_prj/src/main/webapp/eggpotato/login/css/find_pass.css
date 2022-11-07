@@ -15,6 +15,7 @@
 .input-title{
 	text-align: left;
 	margin: 5px 0px 5px 25px;
+	font-size: 17px;
 }
 
 .box-main {
@@ -47,7 +48,7 @@
 }
 .main-container{
 	display: block;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	padding: 0px 50px 50px 50px;
 }
 
@@ -62,7 +63,8 @@
 	cursor: pointer;
 	background-color: #DEAE75;
 	border: 0px;
-	margin: 20px;
+	margin: 40px 20px 5px 20px;
+	font-size: 17px;
 }
 
 .id {
@@ -73,6 +75,7 @@
 	margin: 10px;
 	border-width: 0px 0px 1px 0px;
 	border-bottom-color: #A5A5A5;
+	font-size: 17px;
 }
 
 .text-box {
@@ -83,4 +86,5 @@
 	margin: 10px;
 	border-width: 0px 0px 1px 0px;
 	border-bottom-color: #A5A5A5;
+	font-size: 17px;
 }

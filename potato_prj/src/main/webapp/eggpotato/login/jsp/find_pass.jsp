@@ -39,7 +39,7 @@ $(function() {
 			<h2 class="input-title">이름</h2>
 			<input type="text" placeholder="이름" class="text-box"><br/>
 			<h2 class="input-title">아이디</h2>
-			<input type="text" placeholder="별명" class="id"><br/>
+			<input type="text" placeholder="아이디" class="id"><br/>
 			<h2 class="input-title">휴대전화</h2>
 			<input type="text" placeholder="전화번호 입력" class="text-box"><br/>
 			<input type="button" value="비밀번호 찾기" class="findBtn" id="findBtn">

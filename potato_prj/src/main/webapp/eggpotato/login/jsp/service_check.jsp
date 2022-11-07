@@ -40,19 +40,22 @@
 			<div class="check_all">
 			<span class="check_wrap">
   				<input type="checkbox"/>
-  				<label>모두 동의합니다.</label>
+  				<label class="text-s">모두 동의합니다.</label>
 			</span>
 			</div>
+			<span class="line_or">
+				::before
+			</span>
 			<div class="check_agree">
 				<span class="form-check">
   				<input type="checkbox"/>
-  				<label><a href="tos2.jsp"
+  				<label class="text-s"><a href="tos2.jsp"
   				onclick="window.open(this.href); return false;">[필수] 서비스 약관 동의</a></label>
 				</span>
 			<div class="interval"></div>
 				<span class="form-check">
   				<input type="checkbox"/>
-  				<label>[필수] 개인정보 수집 및 이용 동의</label>
+  				<label class="text-s">[필수] 개인정보 수집 및 이용 동의</label>
 				</span>
 			</div>
 			<input type="button" value="다음" class="nextBtn">

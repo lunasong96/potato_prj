@@ -64,6 +64,7 @@
 	background-color: #DEAE75;
 	border: 0px;
 	margin: 20px 20px 20px 20px;
+	font-size: 17px;
 }
 
 .useBtn{
@@ -74,6 +75,7 @@
 	border: 0px;
 	margin: 20px auto;
 	color: #FFFFFF;
+	font-size: 17px;
 }
 
 .check-text {
@@ -84,4 +86,5 @@
 	margin: 10px;
 	border-width: 0px 0px 1px 0px;
 	border-bottom-color: #A5A5A5;
+	font-size: 14px;
 }
