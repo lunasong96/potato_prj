@@ -55,16 +55,16 @@ $(function() {
 <!-- 작업시작 -->
 <div class="bookmarkWrap">
 	<div class="title">휴게소 즐겨찾기</div  >
-		<div class="profile">
+	<!-- 	<div class="profile">
 			<div class="profileImg">
 					<img src=""  id="profileImg" name="profileImg" class="profileImg" style="margin: 5px 30px; width: 70px; height: 70px; background: #f8edeb; border-radius: 50%;">
 				<div class="profileContent">
 					<div class="nick">
 						닉네임
-					</div><!-- nick -->
-				</div><!-- profileContent -->
-			</div><!-- profileImg -->
-		</div><!-- profile -->
+					</div>nick
+				</div>profileContent
+			</div>profileImg
+		</div>profile -->
 	<div class="listWrap">
 		<div class="list">
 			<span class="list-item">xx휴게소</span>
