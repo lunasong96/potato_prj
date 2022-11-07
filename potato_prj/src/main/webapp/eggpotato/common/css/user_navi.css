@@ -2,7 +2,7 @@
 
 .wrap-navi{
 	display: flex;
-	height: max-content;
+	min-height: 700px;
 }
 .navi{
 	display: flex;

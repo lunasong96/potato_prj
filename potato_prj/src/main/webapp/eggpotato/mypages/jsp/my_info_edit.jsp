@@ -12,7 +12,12 @@
 <link rel="stylesheet" type="text/css" href="../css/my_info_edit.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
-
+$(function() {
+	$(".edit_btn").click(function() {
+		confirm("성공적으로 수정되었습니다.")
+	});//click
+	
+});//ready
 </script>
 
 </head>
@@ -56,8 +61,11 @@
 			<td>
 				<div class="profile_img">
 					<img src=""  id="profileImg" name="profileImg" class="profileImg" style="margin: 5px 30px; width: 70px; height: 70px; background: #f8edeb; border-radius: 50%;">
-				<input type="button" value="사진 등록" class="img_btn">
-				<input type="button" value="삭제" class="img_del_btn">
+				<div class="upload-button">
+					<input type="button" value="사진 등록" class="img_btn">
+					<input type="file" name="upfile" id="upfile"/>
+					<input type="button" value="삭제" class="img_del_btn">
+				</div><!-- upoad-button -->
 				</div>
 			</td>
 		</tr>
