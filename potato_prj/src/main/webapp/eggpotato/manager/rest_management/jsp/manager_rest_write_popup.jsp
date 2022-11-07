@@ -42,10 +42,6 @@
 		<div class="rest-food">
 			<div class="food-head">
 				<span>음식</span>
-				<div class="img-btn-wrap">
-					<button type="button" class="plus-btn">+</button>
-					<button type="button" class="minus-btn">-</button>
-				</div>
 			</div>
 			<div class="food-info">
 				<span>
@@ -82,9 +78,15 @@
 							<input type="radio" name="type"/>
 							<label>추천메뉴</label>
 							<input type="radio" name="type"/>
+							<label>선택안함</label>
+							<input type="radio" name="type" checked="checked"/>
 						</span>
 					</div>
 				</div>
+			</div>
+			<div class="appendBtn">
+				<button type="button" class="plus-btn">+</button>
+				<button type="button" class="minus-btn">-</button>
 			</div>
 		</div>
 		<p class="sep"/>
