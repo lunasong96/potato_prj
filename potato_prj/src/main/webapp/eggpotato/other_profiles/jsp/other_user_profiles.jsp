@@ -108,6 +108,15 @@ function slider() {
 		</div>
 		
 		<div class="re-right">
+		<!-- 휴게소명 시작-->
+		<div>
+			<a href="#void" style="text-decoration : none;font-size: 19px; color: white;
+						border: 0px solid; padding: 4px 20px 1px 20px;
+						background-color: #DCC1A0; border-radius: 7px;">
+			냠냠냠냠냐먀냐먀냠히호호 휴게소
+			</a>
+		</div>	
+		<!-- 휴게소명 끝-->
 			<span>휴게소하면알감자</span>
 			<div class="star-rate">
 				<span class="star-blank"></span>
@@ -176,6 +185,15 @@ function slider() {
 		</div>
 		
 		<div class="re-right">
+		<!-- 휴게소명 시작-->
+		<div>
+			<a href="#void" style="text-decoration : none;font-size: 19px; color: white;
+						border: 0px solid; padding: 4px 20px 1px 20px;
+						background-color: #DCC1A0; border-radius: 7px;">
+			냠냠냠냠냐먀냐먀냠히호호 휴게소
+			</a>
+		</div>	
+		<!-- 휴게소명 끝-->
 			<span>슬라이드테스트</span>
 			<div class="star-rate">
 				<span class="star-blank"></span>
@@ -241,6 +259,15 @@ function slider() {
 			<img src="http://localhost/html_prj/day0825/images/cimg.png" alt="프로필사진">
 		</div>
 		<div class="re-right">
+		<!-- 휴게소명 시작-->
+		<div>
+			<a href="#void" style="text-decoration : none;font-size: 19px; color: white;
+						border: 0px solid; padding: 4px 20px 1px 20px;
+						background-color: #DCC1A0; border-radius: 7px;">
+			냠냠냠냠냐먀냐먀냠히호호 휴게소
+			</a>
+		</div>	
+		<!-- 휴게소명 끝-->
 			<span>사진4개이하테스트</span>
 			<div class="star-rate">
 				<span class="star-blank"></span>
