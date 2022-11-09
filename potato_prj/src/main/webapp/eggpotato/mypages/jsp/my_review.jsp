@@ -103,7 +103,6 @@ function slider() {
 <!-- 리뷰 -->
 
 
-
 <!-- 리뷰 -->
 <div class="review-wrap">
 		<div class="review-exist">
@@ -112,6 +111,11 @@ function slider() {
 		</div>
 		
 		<div class="re-right">
+		<!-- 휴게소명 시작-->
+			<div class="restarea-name"> 
+				<a href="#void" style="text-decoration : none;font-size: 19px; color: white; ">00휴게소</a>
+			</div>
+		<!-- 휴게소명 끝-->
 			<span>휴게소하면알감자</span>
 			<div class="star-rate">
 				<span class="star-blank"></span>
@@ -189,6 +193,9 @@ function slider() {
 		</div>
 		
 		<div class="re-right">
+			<div class="restarea-name"> 
+				<a href="#void" style="text-decoration : none;font-size: 19px; color: white; ">00휴게소</a>
+			</div>
 			<span>슬라이드테스트</span>
 			<div class="star-rate">
 				<span class="star-blank"></span>
@@ -265,6 +272,9 @@ function slider() {
 		</div>
 		
 		<div class="re-right">
+			<div class="restarea-name"> 
+				<a href="#void" style="text-decoration : none;font-size: 19px; color: white; ">00휴게소</a>
+			</div>
 			<span>사진4개이하테스트</span>
 			<div class="star-rate">
 				<span class="star-blank"></span>

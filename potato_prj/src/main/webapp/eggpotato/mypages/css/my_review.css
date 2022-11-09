@@ -334,3 +334,17 @@
 .heart-icon-wrap > span, .report-icon > span, .edit-icon > span, .delete-icon > span {
 	font-size: 15px;
 }
+/* 휴게소명 시작  */
+.restarea-name{
+	width:150px;
+	height:33px;
+	border: 0px solid;
+	border-radius: 7px;
+	background-color: #DCC1A0;
+	text-decoration : none;
+ 	text-align: center;
+ 	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* 휴게소명 끝 */
