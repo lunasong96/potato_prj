@@ -38,8 +38,8 @@ $(function() {
 		<div class="main-container">
 			<h2 class="input-title">이름</h2>
 			<input type="text" placeholder="이름" class="text-box"><br/>
-			<h2 class="input-title">별명</h2>
-			<input type="text" placeholder="별명" class="text-box"><br/>
+			<h2 class="input-title">생년월일</h2>
+			<input type="text" placeholder="생년월일" class="text-box"><br/>
 			<h2 class="input-title">휴대전화</h2>
 			<input type="text" placeholder="전화번호 입력" class="text-box"><br/>
 			<input type="button" value="아이디 찾기" class="findBtn" id="findBtn">

@@ -42,7 +42,7 @@
 			<input type="text" placeholder="이름" class="text-join"><br/>
 			<h2 class="input-title">별명</h2>
 			<input type="text" placeholder="별명" class="text-join"><br/>
-			<h2 class="input-title">별명</h2>
+			<h2 class="input-title">생년월일</h2>
 			<input type="text" placeholder="년(4자)" class="text-year">
 			<input type="text" placeholder="월" class="text-year">
 			<input type="text" placeholder="일" class="text-year">
