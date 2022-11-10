@@ -16,9 +16,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
 //하트아이콘
-$(document).on("click", ".heart-btn", function() {
-	$(this).toggleClass("hb-fill");
-})
+
 	$(function() {
 		
 		$(".bookmark-icon-btn").click(function() {
@@ -30,6 +28,9 @@ $(document).on("click", ".heart-btn", function() {
 			window.open("report_review_popup.jsp","popup_report",
 			"width=520,height=470,top=203,left=1336");
 		})
+		$(document).on("click", ".heart-btn", function() {
+	$(this).toggleClass("hb-fill");
+})
 		
 		//리뷰 슬라이드 호출
 		slider();
