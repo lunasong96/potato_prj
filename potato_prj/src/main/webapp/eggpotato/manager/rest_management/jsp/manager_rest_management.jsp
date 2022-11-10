@@ -143,6 +143,13 @@ $(document).on("click",".popup-btn",function(){
 						</tr>
 					</table>
 				</div>
+				<div class="page">
+					<a href="#void" class="page-num">&nbsp;&lt;&nbsp;</a>
+					<a href="#void" class="page-num">&nbsp;1&nbsp;</a>
+					<a href="#void" class="page-num">&nbsp;2&nbsp;</a>
+					<a href="#void" class="page-num">&nbsp;3&nbsp;</a>
+					<a href="#void" class="page-num">&nbsp;&gt;&nbsp;</a>
+				</div>
 			</div>
 		</div>
 <!-- 건들지마세요 -->
