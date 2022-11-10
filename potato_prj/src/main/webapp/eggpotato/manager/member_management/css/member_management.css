@@ -5,7 +5,7 @@
     display: block;
     width: 1300px;
     margin: 0 0 50px 330px;
-}
+} 
 
 .text {
     margin: 15px;
@@ -76,7 +76,6 @@
 .table_wrap {
 	width: 1020px;
 	height: 500px;
-	overflow: auto;
 }
 
 .table1, .table2, .table3 {
@@ -118,4 +117,27 @@ table tr td:first-child, table td:last-child {
 	border:1px solid #E74C3C;
 	border-radius: 6px;
 	color: #FFFFFF;
+}
+
+
+/* 페이지 */
+.page{
+	width:1020px;
+	display: flex;
+    justify-content: center;
+    margin: 130px 0;
+}
+
+.page-num{
+	font-size: 16px;
+    color: #000;
+	background-color: #F4F4F4;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 12px;
+}
+.page-num:hover{
+    color: #FFF;
+    background-color: #C89E6C;
+
 }

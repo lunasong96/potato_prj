@@ -26,7 +26,13 @@ $(function(){
 		
 	//차단 해제 버튼 클릭 시
 	$("#unblockBtn").click(function(){
-		alert("차단 해제되었습니다. ")
+	    if (!confirm("해당 회원을 차단 해제하겠습니까?")) {
+	        // 취소(아니오) 버튼 클릭 시 이벤트
+	        alert("취소되었습니다.")
+	    } else {
+	        // 확인(예) 버튼 클릭 시 이벤트
+	        alert("차단 해제되었습니다.")
+	    }
 	});
 	
 	
@@ -181,6 +187,15 @@ function tableChange(){
 			
 			</div>
 		</div><!-- 본문 끝 -->
+
+<!-- 페이지 -->
+		<div class="page">
+			<a href="#void" class="page-num">&nbsp;&lt;&nbsp;</a>
+			<a href="#void" class="page-num">&nbsp;1&nbsp;</a>
+			<a href="#void" class="page-num">&nbsp;2&nbsp;</a>
+			<a href="#void" class="page-num">&nbsp;3&nbsp;</a>
+			<a href="#void" class="page-num">&nbsp;&gt;&nbsp;</a>
+		</div>
 
 <!-- 건들지마세요 -->
 	</div>
