@@ -19,7 +19,7 @@
 <div class="wrap">
 	<div class="top">
 		<img src="../../../images/report.png" class="report-icon">
-		<span>회원 신고하기</span>
+		<span>회원 차단하기</span>
 	</div>
 	<div class="middle">
 		<p>차단대상자: <span>송성우</span></p>
